@@ -10,7 +10,7 @@
 }
 
 body {
-  background-color: #e8eaed;
+  background-color: hsl(313, 64%, 89%);
 }
 
 .App {
@@ -23,17 +23,13 @@ body {
   margin: 10px;
 }
 
-/* Add post */
-
 nav {
   width: 100%;
   text-align: right;
   background-color: #fff;
-  /* padding: 10px; */
   border: solid 1px #fff;
   border-radius: var(--main-bdr-radius);
   margin-bottom: 10px;
-  /* font-size: 30px; */
 }
 
 .btn-add, .btn-send, .btn-edit, .btn-del {
@@ -44,7 +40,6 @@ nav {
   border: solid 1px #4469ae;
   border-radius: var(--main-bdr-radius);
   font-size: 14px; 
-  /* margin: 0 10px 10px 0; */
 }
 
 .btn-edit {
@@ -55,7 +50,6 @@ nav {
   background-color: #b04546;
 }
 
-/* Post */
 .head-post {
   display: flex;
   align-items: center;
